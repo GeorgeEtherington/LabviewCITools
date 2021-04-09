@@ -10,15 +10,19 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Generic Tools" Type="Folder">
+			<Item Name="ExitVI.vi" Type="VI" URL="../GenericTools/ExitVI.vi"/>
+			<Item Name="GetArguments.vi" Type="VI" URL="../VI Analyser/GetArguments.vi"/>
+			<Item Name="ValidatePath.vi" Type="VI" URL="../VI Analyser/ValidatePath.vi"/>
+		</Item>
 		<Item Name="VI Analyser" Type="Folder">
-			<Item Name="CommandLineTest.vi" Type="VI" URL="../GenericTools/CommandLineTest.vi"/>
 			<Item Name="GetAllFunctionsFromProject.vi" Type="VI" URL="../VI Analyser/GetAllFunctionsFromProject.vi"/>
 			<Item Name="VI Analyser.vi" Type="VI" URL="../VI Analyser/VI Analyser.vi"/>
 		</Item>
 		<Item Name="VI Build" Type="Folder">
+			<Item Name="GetBuildArguments.vi" Type="VI" URL="../VI Build/GetBuildArguments.vi"/>
 			<Item Name="VI Build.vi" Type="VI" URL="../VI Build/VI Build.vi"/>
 		</Item>
-		<Item Name="ExitVI.vi" Type="VI" URL="../GenericTools/ExitVI.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AB_Generate_Error_Cluster.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Generate_Error_Cluster.vi"/>
@@ -299,7 +303,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{933A0B70-61C7-4500-BCD1-A84592CA1778}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/VI Analyser/CommandLineTest.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/VI Analyser/VI Analyser.vi</Property>
